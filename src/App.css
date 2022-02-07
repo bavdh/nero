@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: myriad-pro, sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.center {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.navbar {
+  width: 20vw;
+}
+
+.navigation {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navbar img {
+  width: 40%;
+  align-self: center;
+}
+
+.nav-item {
+  justify-content: space-between;
+  padding: 1rem .5rem;
+  font-weight: bold;
+}
+
+.nav-icon {
+  vertical-align: middle;
+  padding-right: 1rem;
+  transform: scale(1.1);
+}
+
+.content {
+  width: 70vw;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+}
+
+.section-title-wrapper {
+  align-items: center;
+}
+
+.section-header .title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.btn-primary {
+  background-color: #1886ff;
+  color: #fff;
+  border: hidden;
+  border-radius: 30px;
+  padding: .5rem 1.4rem;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  transform: scale(1.06);
+}
+
+.dropdown {
+  border: none;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: medium;
+  color: #1886ff;
+  margin-left: 1rem;
+}
+
+.dropdown option {
+  color: black;
+  font-weight: normal;
+}
+
+.nft-items-wrapper {
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.nft-item .img-wrapper {
+  width: 300px;
+  height: 200px;
+}
+
+.nft-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.nft-item .title {
+  margin-top: 16px;
+  font-size: medium;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nft-item .subtitle {
+  font-size: small;
+  padding: 2px 0px;
+  color: #9c9c9c;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nft-item .info {
+  font-size: 11px;
+  align-items: center;
+  color: #9c9c9c;
+  font-weight: 600;
+}
+
+.nft-item .info .stats-icon {
+  margin: 10px 6px;
+  font-size: medium;
+}
+
+.nft-item .info .stats-icon:hover {
+  transform: scale(1.3);
+}
+
+.wallet-wrapper {
+  align-items: center;
+}
